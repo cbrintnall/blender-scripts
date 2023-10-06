@@ -1,3 +1,5 @@
+import bpy
+
 count = 0
 for bone in bpy.context.selected_bones:
     if not bone.name.endswith(".L"):
